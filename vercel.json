@@ -1,0 +1,9 @@
+{
+  "cleanUrls": false,
+  "rewrites": [
+    {
+      "source": "/((?!_next|__sitecloner|brand|data|images|logos|icon.png|apple-icon.png|favicon.ico|opengraph-image).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
